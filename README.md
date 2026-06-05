@@ -73,7 +73,7 @@ O cálculo das pontuações complexas do bolão roda 100% nativo no motor SQL do
 ## 💻 Recursos do Front-End (Streamlit)
 
 * **Performance Otimizada:** Implementação de cache de dados com tempo de vida (`ttl=300`), minimizando requisições desnecessárias ao banco de dados em nuvem a cada clique ou filtro aplicado pelo usuário.
-* **Hierarquia Corporativa Dinâmica:** O dropdown de equipes é montado dinamicamente com base nas strings existentes no banco de dados. Filtros aplicados em sub-times (ex: `FG-AM-1`) coletam de forma automática dados de sub-equipes inferiores (`FG-AM-11`, `FG-AM-12`) via lógica de prefixo `.str.startswith()`.
+* **Hierarquia Corporativa Dinâmica:** O dropdown de equipes é montado dinamicamente com base nas strings existentes no banco de dados. Filtros aplicados em sub-times (ex: `Time 1`) coletam de forma automática dados de sub-equipes inferiores (`Time 11`, `Time 12`) via lógica de prefixo `.str.startswith()`.
 * **Módulo i18n:** Suporte completo de tradução e internacionalização em três idiomas: Inglês, Português (BR) e Alemão.
 
 ---
